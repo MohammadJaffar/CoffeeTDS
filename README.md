@@ -1,7 +1,6 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/tLvnbFIl)
 # Make Better Coffee ☕️
 
-Welcome to the **Make Better Coffee** app! This application allows coffee lovers to input their brewing parameters (coffee dose, water temperature, volume, number of pours, and brew time) to determine if their coffee will be **strong**, **balanced**, or **weak** based on these factors. Whether you're a coffee enthusiast or a beginner, this app will guide you in making the perfect cup.
+Welcome to the **Make Better Coffee** app! This application allows coffee lovers to input their brewing parameters (coffee dose, water temperature, volume, number of pours, and brew time) to determine if their coffee will be **strong**, **balanced**, or **weak** based on these factors by predicting the total dissolved solids (TDS). Whether you're a coffee enthusiast or a beginner, this app will guide you in making the perfect cup.
 
 ## Features
 
@@ -13,7 +12,7 @@ Welcome to the **Make Better Coffee** app! This application allows coffee lovers
     * Brew time (in minutes, automatically converted to seconds)
 
 * **Coffee Strength Evaluation**: Based on the entered parameters, the app will calculate the strength of your coffee:
-    * **Strong**: Bold, rich coffee.
+    * **Strong**: Bold, might be a bitter coffee.
     * **Balanced**: Well-rounded flavor.
     * **Weak**: Light coffee that may need adjustment.
 
@@ -21,7 +20,8 @@ Welcome to the **Make Better Coffee** app! This application allows coffee lovers
 
 ## Developers 👏
 
-**Salwa Alshamrani**  
-**Hadeel Almaylam**  
-**Mohammad Alkhatim**  
-**Tariq Alshammari**
+
+- **Salwa Alshamrani** - [LinkedIn](https://www.linkedin.com/in/salwa-alshamrani-a37419236/)
+- **Hadeel Almaylam** - [LinkedIn](https://www.linkedin.com/in/hadeelalmaylam/)
+- **Mohammad Alkhatim** - [LinkedIn](https://www.linkedin.com/in/mohammad-alkhatim-9b1770266/)
+- **Tariq Alshammari** - [LinkedIn](https://www.linkedin.com/in/tariq-alshammari-173a91298/)
