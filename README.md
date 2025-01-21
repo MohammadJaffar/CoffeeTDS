@@ -18,6 +18,16 @@ Welcome to the **Make Better Coffee** app! This application allows coffee lovers
 
 * **Visual Appeal**: The app provides an intuitive interface with coffee-related images and smooth interactions.
 
+## How to run the application
+
+* **Install Dependencies**
+   Make sure you have Python installed, then install the required libraries using the requirements.txt file:
+
+   pip install -r requirements.txt
+
+* **Run the Streamlit App**
+    streamlit run app2.py
+
 ## Developers 👏
 
 
