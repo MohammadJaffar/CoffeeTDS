@@ -6,7 +6,7 @@ import sklearn
 
 # Load the trained model
 def new_func():
-    with open(r'machine-learning-project-team-4\Model\lineareg_model.pkl', 'rb') as file:
+    with open(r'CoffeeTDS\Model\lineareg_model.pkl', 'rb') as file:
         model = pickle.load(file)
     return model
 
@@ -104,11 +104,11 @@ def seconder(brew_time):
     return td.total_seconds()
 
 # User inputs for the coffee brewing process
-coffee_dose = st.sidebar.number_input("Coffee Dose (grams)", min_value=1, value=10, step=1)
-water_temp = st.sidebar.slider("Water Temperature (°C)", min_value=60, max_value=100, value=90)
-water_vol = st.sidebar.number_input("Water Volume (ml)", min_value=50, value=200, step=10)
+coffee_dose = st.sidebar.number_input("Coffee Dose (grams)", min_value=1, value=15, step=1)
+water_temp = st.sidebar.slider("Water Temperature (°C)", min_value=60, max_value=100, value=92)
+water_vol = st.sidebar.number_input("Water Volume (ml)", min_value=50, value=225, step=10)
 num_pours = st.sidebar.number_input("Number of Pours", min_value=1, value=3, step=1)
-brew_time = st.sidebar.text_input("Brew Time (min:sec)", value="0:00")
+brew_time = st.sidebar.text_input("Brew Time (min:sec)", value="2:00")
 
 # Button to trigger prediction
 if st.button("Calculate TDS"):
