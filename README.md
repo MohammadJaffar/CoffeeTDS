@@ -26,6 +26,7 @@ Welcome to the **Make Better Coffee** app! This application allows coffee lovers
    pip install -r requirements.txt
 
 * **Run the Streamlit App**
+* 
     streamlit run app2.py
 
 ## Developers 👏
