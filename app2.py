@@ -2,11 +2,11 @@ import streamlit as st
 from datetime import timedelta
 import pandas as pd
 import pickle
-import sklearn
+
 
 # Load the trained model
 def new_func():
-    with open(r'CoffeeTDS\Model\lineareg_model.pkl', 'rb') as file:
+    with open(r'C:\Users\7o7e\Desktop\TA\ML\Deploy\CoffeeTDS\Model\lineareg_model.pkl', 'rb') as file:
         model = pickle.load(file)
     return model
 
