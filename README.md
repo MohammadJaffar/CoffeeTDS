@@ -21,12 +21,11 @@ Welcome to the **Make Better Coffee** app! This application allows coffee lovers
 ## How to run the application
 
 * **Install Dependencies**
-   Make sure you have Python installed, then install the required libraries using the requirements.txt file:
 
    pip install -r requirements.txt
 
 * **Run the Streamlit App**
-* 
+  
     streamlit run app2.py
 
 ## Developers 👏
